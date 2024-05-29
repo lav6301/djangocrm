@@ -1,0 +1,48 @@
+# Virtual environment
+virt/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+env.bak/
+env.env/
+env_local/
+venv/
+ENV/
+ENV.bak/
+env/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# If you're using PyCharm:
+.idea/
+
+# If you're using VSCode:
+.vscode/
+
+# MySQL database URL and credentials (usually in a separate settings file or .env)
+*.env
+mysql.cnf
+
+
+# Libraries
+lib/
+lib64/
+site-packages/
+
+
+# MySQL Connector
+mysql-connector-python/
+mysql-connector-python-rf/
+# MySQLdb
+MySQLdb/
